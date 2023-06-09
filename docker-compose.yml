@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  backend:
+    container_name: aggregation-api
+    build:
+      context: ./backend
+    environment:
+      OPENAI_KEY: ${OPENAI_API_KEY}
+    ports:
+      - 8080:8080
+    volumes:
+      - ./.local-data:/app/data
+      - ~/.config:/root/.config # Allow google cloud default credentials
+  frontend:
+    container_name: aggregation-ui
+    build:
+      context: ./frontend
+    environment:
+      PORT: 3000
+    ports:
+      - 3000:3000
+
+

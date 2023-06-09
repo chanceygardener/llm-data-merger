@@ -1,0 +1,11 @@
+.Button {
+    background-color: rgb(46, 118, 46);
+    color: white;
+    border-radius: 10px;
+}
+
+.Button:hover {
+    background-color: rgb(105, 192, 105);
+    box-shadow: #494949;
+    cursor: pointer;
+}

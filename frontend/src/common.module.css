@@ -1,0 +1,8 @@
+.Button {
+    color: rgb(46, 118, 46);
+    border-radius: 10px;
+}
+
+.Button.hover {
+    
+}

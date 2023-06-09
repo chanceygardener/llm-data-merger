@@ -1,0 +1,53 @@
+
+
+.Sidebar {
+    color: black;
+    min-height: 100vh;
+    float: left;
+}
+
+.Button {
+    color: rgb(46, 118, 46);
+    border-radius: 10px;
+}
+
+.Button:hover {
+    color: rgb(105, 192, 105);
+    box-shadow: #494949;
+}
+
+body {
+    margin: 0;
+    font-family: "Figtree", -apple-system, BlinkMacSystemFont, "Segoe UI", "Figtree", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    background: #494949;
+    font-size: 24px;
+    height: 100%;
+    align-items: baseline;
+}
+
+.app {
+    background: #040404;
+    padding-top: 5%;
+    height: 100vh;
+    display: flex;
+    border-radius: 5px;
+}
+
+
+h2 {
+    color: #165a72;
+}
+
+.MenuHead {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.ActiveAgg {
+    margin: 50px auto;
+    align-items: center;
+    padding-top: 50px;
+}
